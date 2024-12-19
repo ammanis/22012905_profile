@@ -1,0 +1,70 @@
+.box-letter{
+    border: 0px solid black;
+    background-color: antiquewhite;
+    width:55%;
+    height: auto;
+}
+.box-logo{ /*margin > border > padding > content*/
+    border: 0px;
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+}
+.box-sju{
+    border: 0px;
+    width: 400px;
+    height: 100px;
+    margin: 0px;
+}
+.right-side{
+    text-align: right;
+}
+.box-container{
+    border: 0px;
+    display: flex; /*by default = vertical, flex = horizontal*/
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box-edu{
+    background-color: lightgoldenrodyellow;
+    border: 3px dashed yellow;
+    width:55%;
+    height: auto;
+}
+.box-edu2{
+    border: 2px dashed yellow;
+    background-color: lightblue;
+    width:55%;
+    height: auto;
+}
+.box-edu3{
+    border: 2px dashed yellow;
+    background-color: lightgrey;
+    width:55%;
+    height: auto;
+}
+.box-bigTitle{
+    background-color: white;
+    background-clip: border-box;
+    width:auto;
+    height: auto;
+}
+.box-eduTitle{
+    background-color: aquamarine;
+    background-clip: border-box;
+    width:auto;
+    height: auto;
+}
+.box-eduCont{
+    background-color: lightgoldenrodyellow;
+    background-clip: border-box;
+    width:auto;
+    height: auto;
+}
+.box-eduCont2{
+    border: 1px solid lightgoldenrodyellow;
+    background-clip: border-box;
+    padding-top: 1px;
+    width:auto;
+    height: auto;
+}
