@@ -6,13 +6,13 @@
 }
 .box-logo{ /*margin > border > padding > content*/
     border: 0px;
-    width: 200px;
-    height: 200px;
+    width: auto;
+    height: auto;
     margin: 0px;
 }
 .box-sju{
     border: 0px;
-    width: 400px;
+    width: 570px;
     height: 100px;
     margin: 0px;
 }
@@ -44,7 +44,11 @@
     height: auto;
 }
 .box-bigTitle{
-    background-color: white;
+    border: 3px solid black;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    background-color: antiquewhite;
     background-clip: border-box;
     width:auto;
     height: auto;
